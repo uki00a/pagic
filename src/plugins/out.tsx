@@ -1,6 +1,6 @@
 import { fs, path, ReactDOMServer } from '../../deps.ts';
 // @deno-types="../types/any.d.ts"
-import Helmet from 'https://esm.sh/react-helmet@6.1.0/esnext/react-helmet.js';
+import Helmet from 'https://esm.sh/react-helmet@6.1.0';
 
 import type { PagicPlugin } from '../Pagic.ts';
 import { ensureDirAndWriteTextFile, ensureDirAndCopy, copyPagicFile, download } from '../utils/mod.ts';

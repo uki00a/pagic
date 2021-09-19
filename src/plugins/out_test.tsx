@@ -1,6 +1,6 @@
 import { asserts, React, fs } from '../../deps.ts';
 // @deno-types="../types/any.d.ts"
-import Helmet from 'https://esm.sh/react-helmet@6.1.0/esnext/react-helmet.js';
+import Helmet from 'https://esm.sh/react-helmet@6.1.0';
 
 import Pagic from '../Pagic.ts';
 import out from './out.tsx';

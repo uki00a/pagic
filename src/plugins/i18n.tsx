@@ -1,7 +1,7 @@
 // ISO Language Code Table
 // http://www.lingoes.net/en/translator/langcode.htm
 
-import i18next from 'https://esm.sh/i18next@19.8.1/esnext/i18next.js';
+import i18next from 'https://esm.sh/i18next@19.8.1';
 import { Trans as TransComponent } from 'https://esm.sh/react-i18next@11.7.3/Trans.js';
 
 import { path, React } from '../../deps.ts';
