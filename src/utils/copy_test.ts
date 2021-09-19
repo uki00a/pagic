@@ -25,7 +25,7 @@ Deno.test('[copyPagicFile]', async () => {
 });
 
 Deno.test('[download]', async () => {
-  await download('https://cdn.pagic.org/lodash@4.17.20/esnext/throttle.js', 'test/fixtures/test_copy_dir/throttle.js');
+  await download('https://esm.sh/lodash@4.17.20/esnext/throttle.js', 'test/fixtures/test_copy_dir/throttle.js');
   const fileExists = await fs.exists('test/fixtures/test_copy_dir/throttle.js');
   asserts.assert(fileExists);
 });

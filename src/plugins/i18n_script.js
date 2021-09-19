@@ -1,5 +1,5 @@
-import i18next from 'https://cdn.pagic.org/i18next@19.8.1/esnext/i18next.js';
-import { Trans } from 'https://cdn.pagic.org/react-i18next@11.7.3/Trans.js';
+import i18next from 'https://esm.sh/i18next@19.8.1/esnext/i18next.js';
+import { Trans } from 'https://esm.sh/react-i18next@11.7.3/Trans.js';
 
 import pagicConfig from './pagic.config.js';
 
