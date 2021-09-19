@@ -1,5 +1,5 @@
 import { React } from '../../../deps.ts';
-import throttle from 'https://esm.sh/lodash@4.17.20/esnext/throttle.js';
+import throttle from 'https://cdn.skypack.dev/lodash-es@4.17.20/throttle.js';
 
 import type { PagicLayout } from '../../Pagic.ts';
 import Loading from './_loading.tsx';
